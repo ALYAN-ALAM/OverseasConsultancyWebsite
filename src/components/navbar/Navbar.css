@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(201, 43, 3);
+  color: white;
+}
+.navbar hr {
+  width: 100% !important;
+  height: 0 !important;
+  border: 0.5px solid rgb(205, 203, 203) !important;
+}
+.navbar .container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.navbar .container .logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar .container .links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 500;
+}
+.navbar .container .links button {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 2px;
+  border: 1px solid white;
+  cursor: pointer;
+  background: transparent;
+}
+.navbar .container .links button:hover {
+  background-color: rgb(237, 39, 39);
+  border-color: rgb(237, 39, 39);
+}
+.navbar .menu {
+  width: 1000px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  color: aliceblue;
+}/*# sourceMappingURL=Navbar.css.map */
